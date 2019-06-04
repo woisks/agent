@@ -1,0 +1,23 @@
+{
+  "name": "woisks/agent",
+  "description": "woisks jwt token",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lifenglin",
+      "email": "woisks@126.com"
+    }
+  ],
+  "require": {
+    "php": "7.*",
+    "piwik/device-detector": "^3.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Woisks\\Agent\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
