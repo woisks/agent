@@ -1,6 +1,6 @@
 {
   "name": "woisks/agent",
-  "description": "woisks jwt token",
+  "description": "woisks agent token",
   "license": "MIT",
   "authors": [
     {
@@ -9,15 +9,12 @@
     }
   ],
   "require": {
-    "php": "7.*",
+    "php": "7.3",
     "piwik/device-detector": "^3.11"
   },
   "autoload": {
     "psr-4": {
       "Woisks\\Agent\\": "src/"
-    },
-    "files": [
-      "src/helpers.php"
-    ]
+    }
   }
 }

@@ -109,12 +109,23 @@ class AgentService
     }
 
     /**
-     * info 2019/5/18 17:56
+     * info 2019/6/6 14:21
      *
      *
      * @return array
      */
-    public function info()
+    public static function info(): array
+    {
+        return (new self())->info_array();
+    }
+
+    /**
+     * info_array 2019/5/18 17:56
+     *
+     *
+     * @return array
+     */
+    private function info_array()
     {
         return [
             'os'          => $this->info_os(),
